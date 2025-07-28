@@ -1,0 +1,38 @@
+{
+  "name": "tm-maps",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@solid-primitives/intersection-observer": "^2.2.2",
+    "@solid-primitives/scheduled": "^1.5.2",
+    "@solidjs/router": "^0.15.3",
+    "@tailwindcss/vite": "^4.1.11",
+    "@tanstack/query-persist-client-core": "^5.83.0",
+    "@tanstack/solid-query": "^5.83.0",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-http": "~2.5.1",
+    "@tauri-apps/plugin-opener": "^2",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "solid-js": "^1.9.3",
+    "tailwindcss": "^4.1.11",
+    "tm-text": "^1.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.2",
+    "@tauri-apps/cli": "^2",
+    "daisyui": "^5.0.46",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
