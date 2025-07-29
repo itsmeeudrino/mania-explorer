@@ -44,7 +44,7 @@ The map data is sourced from these incredible community platforms:
 
 Getting started is simple. Follow these steps to install the application:
 
-1. **Download the Installer:** Go to the [**GitHub Releases**](https://www.google.com/search?q=https://github.com/your-username/your-repo-name/releases) page.  
+1. **Download the Installer:** Go to the [**GitHub Releases**](https://github.com/itsmeeudrino/mania-explorer/releases) page.  
 2. **Get the Latest Version:** Download the .msi installer file from the latest release.  
 3. **Run the Installer:** Double-click the downloaded file and follow the on-screen instructions to install the application.
 
