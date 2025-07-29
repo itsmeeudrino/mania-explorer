@@ -1,4 +1,4 @@
-# **Trackmania Map Player**
+# **Mania Explorer**
 
 An elegant and powerful desktop application for Trackmania that allows you to easily discover, browse, and play a vast library of maps directly on your PC.
 
