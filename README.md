@@ -1,6 +1,6 @@
 # **Trackmania Map Player**
 
-An elegant and powerful desktop application for Trackmania that allows you to easily discover, browse, and play a vast library of maps directly on your PC. Never run out of tracks to play again\!
+An elegant and powerful desktop application for Trackmania that allows you to easily discover, browse, and play a vast library of maps directly on your PC.
 
 Built with modern web technologies and packaged as a lightweight desktop app, it provides a seamless bridge between the huge online map databases and your game client.
 
@@ -11,6 +11,18 @@ Built with modern web technologies and packaged as a lightweight desktop app, it
 * **Weekly Shorts:** Catch up on the current and previous "Weekly Shorts" campaigns.  
 * **Club Campaigns:** Discover and play campaigns created by the community.
 * **Random Map:** Feeling adventurous? Hit the "Random Map" button to get a surprise track from the Trackmania Exchange database.
+
+## **📸 Screenshots**
+
+Here’s a glimpse of what the app looks like.
+
+| Feature | Screenshot |
+| :---- | :---- |
+| **Track of the Day** | ![Screenshot of TOTD Page](assets/screenshot_1.jpg) |
+| **Campaign** | ![Screenshot of Seasons Page](assets/screenshot_2.jpg) |
+| **Weekly Shorts** | ![Screenshot of Weekly Shorts Page](assets/screenshot_3.jpg) |
+| **Club Campaigns** | ![Screenshot of Club Page](assets/screenshot_4.jpg) |
+
 
 ## **🛠️ Technologies & Integrations**
 
@@ -26,17 +38,6 @@ The map data is sourced from these incredible community platforms:
 
 * [**trackmania.io**](https://trackmania.io/)**:** Provides comprehensive data for official campaigns, TOTDs, and more.  
 * [**Trackmania Exchange (TMX)**](https://trackmania.exchange/)**:** The largest community-driven database for Trackmania maps, powering the "Random Map" feature.
-
-## **📸 Screenshots**
-
-Here’s a glimpse of what the app looks like.
-
-| Feature | Screenshot |
-| :---- | :---- |
-| **Playing Track of the Day** | ![Screenshot of TOTD Page](assets/screenshot_1.jpg) |
-| **Playing Campaign Maps** | ![Screenshot of Seasons Page](assets/screenshot_2.jpg) |
-| **Playing Weekly Shorts** | ![Screenshot of Weekly Shorts Page](assets/screenshot_3.jpg) |
-| **Playing Club Campaigns** | ![Screenshot of Club Page](assets/screenshot_4.jpg) |
 
 
 ## **🚀 Setup Guide**
