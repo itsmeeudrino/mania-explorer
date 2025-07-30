@@ -1,6 +1,6 @@
 {
 	"$schema": "https://schema.tauri.app/config/2",
-	"productName": "mania-explorer",
+	"productName": "Mania Explorer",
 	"version": "1.0.0",
 	"identifier": "com.mania-explorer.app",
 	"build": {
