@@ -16,7 +16,7 @@ const Root = (props: ParentProps) => {
 		<div class="h-screen flex">
 			<Aside />
 			<div class="flex flex-col flex-1 overflow-auto">
-				<nav class="navbar bg-base-,300 ashadow-sm">
+				<nav class="navbar">
 					<RandomMapButton />
 				</nav>
 				<main class="flex flex-col overflow-auto flex-1">{props.children}</main>
