@@ -8,7 +8,7 @@ use std::{
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
 fn map_exists(map_id: String) -> bool {
-    let file_path = get_file_path(map_id).unwrap();
+    let file_path = get_file_path(map_id)?;
 
     let file_exists = exists(&file_path).unwrap_or(false);
 
@@ -17,9 +17,9 @@ fn map_exists(map_id: String) -> bool {
 
 #[tauri::command]
 fn open_map(map_id: String) {
-    let file_path = get_file_path(map_id).unwrap();
+    let file_path = get_file_path(map_id)?;
 
-    opener::open(&file_path).unwrap();
+    opener::open(&file_path)?;
 }
 
 fn get_file_path(map_id: String) -> Option<String> {
@@ -42,13 +42,13 @@ fn get_file_path(map_id: String) -> Option<String> {
 
 #[tauri::command]
 fn save_map(map_id: String, bytes: Vec<u8>) {
-    let file_path = get_file_path(map_id).unwrap();
+    let file_path = get_file_path(map_id)?;
 
-    let mut file = File::create(&file_path).unwrap();
+    let mut file = File::create(&file_path)?;
 
-    file.write_all(&bytes).unwrap();
+    file.write_all(&bytes)?;
 
-    opener::open(&file_path).unwrap();
+    opener::open(&file_path)?;
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
